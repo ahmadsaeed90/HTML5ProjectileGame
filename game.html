@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Projectile</title>
+		<meta charset="utf-8">
+		
+		<link href="game.css" rel="stylesheet" type="text/css">
+		
+		<script type="text/javascript" src="jquery.min.js"></script>
+		<script type="text/javascript" src="game.js"></script>
+	</head>
+	
+	<body>
+		<div id="wrapper">
+			
+			<div id="gamescreen">
+				<div id="gameUI">
+					<div id="gameIntro">
+						<h1>Ball shooting</h1>
+						<p>Hit the moving box with the ball.</p>
+						<p><a id="gamePlay" class="button" href="">Play</a></p>
+					</div>
+					<div id="stats">
+						<p>Score: <span id="score"></span></p>
+					</div>
+					<div id="gameComplete">
+						<h1>Game Over</h1>
+						<p>Your score: <span id="resultScore"></span></p>
+						<p><a class="button" href="" id="restart">Play again</a></p>
+					</div>
+				</div>
+				<canvas id="gameCanvas" width="700" height="400">
+				</canvas>
+			</div>
+		</div>
+	</body>
+</html>
