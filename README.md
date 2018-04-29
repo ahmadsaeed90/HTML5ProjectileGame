@@ -1,4 +1,4 @@
-Interactive simple game using the HTML5 canvas.
+<h2>Interactive simple game using the HTML5 canvas.</h2>
 
 You shoot the green ball with a certain angle and velocity. The angle of the white line
 represents the shooting anglel and the length of the line the magnitue of the velocity. You
